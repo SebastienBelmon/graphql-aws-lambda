@@ -1,0 +1,19 @@
+{
+  "name": "graphql-aws-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nenu-git/graphql-aws-lambda.git",
+  "license": "MIT",
+  "dependencies": {
+    "aws-serverless-express": "^3.2.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "format": "prettier --write \"src/**/*.js\""
+  }
+}
